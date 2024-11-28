@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  --bs-body-line-height: 1.6;
+  --bs-body-bg: #e8eaf6; /* Fondo claro */
+  background-color: var(--bs-body-bg);
+  color: #283593; /* Texto azul oscuro */
+  margin: 0;
+  padding: 0;
+}
+
+#main {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 800px;
+}
+
+#marco {
+  border-radius: 8px;
+  border: 2px solid #283593; /* Azul Ciudad Educativa */
+  background-color: #e3f2fd; /* Azul claro */
+  padding: 20px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2em;
+  color: #1a237e; /* Azul profundo */
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-control {
+  border-radius: 5px;
+  border: 1px solid #3949ab; /* Borde azul intermedio */
+  background-color: #e8eaf6; /* Fondo azul claro */
+  color: #1a237e;
+}
+
+.btn {
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn-info {
+  background-color: #3949ab; /* Azul intermedio */
+  border-color: #3949ab;
+  color: #ffffff;
+}
+
+.btn-info:hover {
+  background-color: #283593; /* Azul Ciudad Educativa */
+  border-color: #283593;
+}
+
+.btn-warning {
+  background-color: #c5cae9; /* Azul pálido */
+  border-color: #c5cae9;
+  color: #283593;
+}
+
+.btn-warning:hover {
+  background-color: #9fa8da; /* Azul suave */
+  border-color: #9fa8da;
+}
+
+.tarjeta {
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+label {
+  font-weight: bold;
+  padding: 5px;
+  color: #3949ab;
+}
+
+img {
+  vertical-align: middle;
+}
